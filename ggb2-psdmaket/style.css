@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+}
+
+.header .logo {
+    margin-top: 63px;
+    margin-left: 98px;
+}
+
+.menu {
+    float: right;
+    margin-top: 67px;
+    margin-right: 211px;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+.menu li a:hover {
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+
+.text {
+    width: 458px;
+    margin-top: 288px;
+    margin-left: 98px;
+}
+
+.text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 23px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-bottom: 34px;
+}
+
+.text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.text a {
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text a:hover {
+    background: #ffffff url(img/arrow.png) no-repeat 173px 16px;
+}
+.navi {
+    margin-left: 623px;
+    margin-top: 50px;
+}
+
+/*-----*/
+
+.explore {
+    float: right;
+    display: block;
+    text-decoration: none;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 138px;
+}
+
+.explore:hover {
+    background: url(img/arrow.png) no-repeat 140px 16px;
+}
+
+.content ul {
+    display: inline-block;
+    height: 50px;
+    float: left;
+    margin-left: 98px;
+    margin-top: 120px;
+}
+
+.content ul li {
+    font-family: Montserrat;
+    list-style-type: none;
+    float: left;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: right;
+    padding: 0 20px;
+    display: block;
+}
+
+
+.content ul li a:hover {
+    border-bottom: 3px solid black;
+    color: #212121;
+    font-weight: 700;
+}
+
+.content ul li a {
+    display: block;
+    text-decoration: none;
+    color: #8c8c8c;
+    border-bottom: 1px solid black;
+}
+
+.goods {
+    float: left;
+    margin-bottom: 120px;
+    margin-left: 98px;
+}
+
+.goods li {
+    width: 270px;
+    height: 270px;
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+
+.promo {
+    clear: both;
+}
+
+.promo1 {
+    float: left;
+    background-image: url(img/promo-img1.jpg);
+    width: 683px;
+    height: 683px;
+}
+
+.promo2 {
+    float: right;
+    background-image: url(img/promo-img.jpg);
+    width: 683px;
+    height: 683px;
+}
+
+.goods1 {
+    float: left;
+    margin-bottom: 120px;
+    margin-left: 98px;
+}
+
+.goods1 li {
+    width: 370px;
+    height: 370px;
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+
+.hotdeal {
+    clear: both;
+}
+
+.hotslider {
+    background-image: url(img/slider1.jpg);
+    width: 1366px;
+    height: 800px;
+    margin: 0 auto;
+    display: block;
+}
+.producttb {
+    margin-left: 80px;
+    clear: both;
+}
+
+.producttb table td {
+    padding: 20px; 
+}
+.productlg {
+    float: left;
+    width: 570px;
+    height: 570px;
+    background: url(img/product-1-lg.jpg);
+}
+.text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.text h4 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.text h5 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+
+.footer {
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.footer .d1 {
+    margin-left: 99px;
+    width: 221px;
+    float: left;
+}
+
+.footer .d2 {
+    width: 425px;
+    float: left;
+    margin-left: 80px;
+}
+
+.footer .d3 {
+    width: 375px;
+    float: right;
+    margin-right: 98px;
+}
+
+.footer .d1,
+.d2,
+.d3 {
+    margin-top: 120px;
+}
+
+.footer h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.footer .left,
+.right {
+    margin-top: 24px;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer .left {
+    float: left;
+    margin-right: 100px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.footer .email {
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+    font-size: 18px;
+    margin-top: 26px;
+}
+
+.footer .email::placeholder {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.footer .copy {
+    clear: right;
+    padding-top: 67px;
+    margin-left: 99px;
+}
+
+.footer .copy h3 {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    float: left;
+}
+.footer .copy .h31{
+    text-align: right;
+    float: right;
+    margin-right: 97px;
+}
+
+.footer .copy ul {
+    float: left;
+    margin-left: 158px;
+    margin-right: 172px;
+}
+
+.footer .copy li {
+    display: inline;
+}
+
+.footer .copy a {
+    color: white;
+    display: block;
+    background-color: #6c6c6c;
+    height: 14px;
+    width: 14px;
+    padding: 5px;
+    border-radius: 14px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+}
